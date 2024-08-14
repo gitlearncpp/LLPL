@@ -21,6 +21,17 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    font-size: large;
+    text-align: justify;
+    text-justify: inter-word;
+}
 h1, h2, h3 {
     font-family: "Apple Braille",Arial, Verdana, sans-serif;
     position: page;
@@ -30,10 +41,24 @@ h1, h2, h3 {
     font-size: medium;
 }
 
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: white;
+}
+
 .port {
     text-align: center;
     font-size: 45px;
     color: darkblue;
+}
+
+body.dark-mode .port {
+    font-size: 45px;
+    color: white;
 }
 
 .port2 {
@@ -42,12 +67,29 @@ h1, h2, h3 {
     color: darkblue;
 }
 
+body.dark-mode .port2 {
+    font-size: 35px;
+    color: white;
+}
+
 .menu_obok {
     box-sizing: border-box;
     border-bottom-style: double;
     margin: 0 auto;
     text-align: center;
 
+}
+
+body.dark-mode .menu_obok {
+    color: white;
+    box-sizing: border-box;
+    border-bottom-style: double;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body.dark-mode .menu_obok a {
+    color: white; /* Kolor linków w motywie ciemnym */
 }
 
 .menu_obok a:not(:last-child)::after {

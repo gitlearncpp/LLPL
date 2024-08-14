@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a5ede7ae-ef83-4e64-9f09-74fcaf74e1a7" name="llpl_site">
+        <fileTransfer rootFolder="/var/www/llpl.org/html" accessType="SFTP" host="5.135.148.4" port="22" sshConfigId="90d22de6-001e-43af-b409-0e1ec4b54160" sshConfig="ubuntu@5.135.148.4:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
