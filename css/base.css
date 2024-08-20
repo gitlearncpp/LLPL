@@ -124,6 +124,7 @@ body.dark-mode .menu_obok a {
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: left;
 }
 
