@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>C langue</title>
+  <link rel="canonical" href="https://www.llpl.org/index.html" />
 
   <link href="../css/base.css" type="text/css" rel="stylesheet">
 
@@ -48,7 +49,94 @@
 </div>
 <br>
 <p>
-  W trakcie przygotowania, planowana data: 30.08.2024
+<h2>Historia języków C, C++ oraz Java</h2><br>
+  <b>Język C</b> <br>
+
+  Język C został stworzony na początku lat 70. XX wieku przez Dennisa Ritchiego w laboratoriach Bell Labs,
+    będących częścią firmy AT&T. Początkowo C powstał jako rozwinięcie języka B, stworzonego przez Kena Thompsona,
+    który z kolei bazował na języku BCPL. Głównym celem powstania C była potrzeba stworzenia języka, który umożliwiłby
+    bezpośrednie programowanie systemów operacyjnych, a zarazem byłby bardziej przenośny niż asembler.<br>
+
+  C szybko stał się popularnym językiem programowania, głównie ze względu na swoją efektywność, elastyczność oraz
+    możliwość pracy na niskim poziomie, co pozwalało na bezpośrednie manipulowanie pamięcią. Stał się językiem
+    dominującym przy tworzeniu systemów operacyjnych, w tym przede wszystkim Uniksa, co z kolei przyczyniło się do
+    jego popularyzacji. Język C zdefiniował pewne standardy, takie jak konwencje dotyczące
+struktury programu, które miały ogromny wpływ na rozwój późniejszych języków.<br><br>
+
+<b>Język C++</b><br><br>
+
+  Język C++ został opracowany w latach 80. przez Bjarne Stroustrupa również w Bell Labs, jako rozszerzenie języka C.
+    Jego początkowa nazwa to "C with Classes" (C z klasami), ponieważ dodawał on do C mechanizmy programowania
+    obiektowego, takie jak klasy, dziedziczenie, polimorfizm i abstrakcję danych. Język został przemianowany
+    na C++ w 1983 roku, co symbolizowało jego ewolucję (operator ++ w C oznacza inkrementację, czyli
+    zwiększenie wartości o 1).<br>
+
+  C++ zachował pełną zgodność z C, co pozwalało na korzystanie z jego istniejących bibliotek i narzędzi,
+    jednocześnie wprowadzając nowe możliwości. Był szeroko stosowany w dziedzinach, gdzie wydajność była kluczowa,
+    takich jak systemy operacyjne, aplikacje sieciowe, gry komputerowe czy oprogramowanie przemysłowe. C++ zyskał
+    na popularności dzięki temu, że pozwalał na pisanie kodu zarówno na niskim, jak i wysokim poziomie, co dawało
+    programistom dużą elastyczność.<br><br>
+
+<b>Język Java</b><br><br>
+
+  Java to język programowania stworzony w 1995 roku przez zespół Sun Microsystems pod kierownictwem Jamesa Goslinga.
+    Java została zaprojektowana jako język o wysokim poziomie abstrakcji, który miał być łatwy w użyciu i przenośny
+    między różnymi platformami. Kluczowym założeniem Javy było "WORA" (ang. Write Once, Run Anywhere), co oznaczało,
+    że kod napisany w Javie mógł działać na każdej maszynie, która posiadała środowisko uruchomieniowe Java Virtual
+    Machine (JVM).<br>
+
+  Java inspirowała się zarówno C, jak i C++, dziedzicząc od nich wiele elementów składniowych, jednak z założenia
+    miała być prostsza i bezpieczniejsza niż C++. W szczególności, Java zrezygnowała z wielu niskopoziomowych
+    operacji dostępnych w C i C++, takich jak bezpośrednia manipulacja wskaźnikami, na rzecz automatycznego
+    zarządzania pamięcią (Garbage Collection) oraz silnego typowania danych.<br><br>
+
+  <b>Wspólne elementy języków C, C++ oraz Java</b><br><br>
+  Pomimo różnic w założeniach i celach projektowych, języki C, C++ i Java mają wiele wspólnych elementów:<br>
+
+  Podobna składnia: Język Java został zaprojektowany tak, aby składnia była bliska C i C++. Dzięki temu
+    programiści znający te języki mogli łatwiej przyswoić sobie Javę. Elementy takie jak struktura bloków
+    kodu (użycie nawiasów klamrowych), instrukcje sterujące (pętle, warunki) czy operatorzy są w dużej mierze identyczne.<br>
+  Silne typowanie: Wszystkie trzy języki charakteryzują się silnym typowaniem danych, co oznacza, że każdy
+    zmienna musi mieć zdefiniowany typ, a operacje na zmiennych muszą być zgodne z ich typami.<br>
+  Struktura programów: Programy w C, C++ i Javie mają podobną strukturę. Główna funkcja programu to w C i C++ main(),
+    a w Javie główna metoda również nosi nazwę main().<br>
+  Dziedziczenie funkcji i klasy: Chociaż C nie wspiera programowania obiektowego, zarówno C++, jak i Java umożliwiają
+    tworzenie klas, dziedziczenie oraz polimorfizm, co jest podstawą programowania obiektowego.<br><br>
+<b>Ewolucja języków C i C++ oraz ich wpływ na Javę</b><br><br>
+  Język C ewoluował przez lata, począwszy od standardu K&R (od nazwisk autorów książki „The C Programming Language” -
+    Brian Kernighan i Dennis Ritchie) z 1978 roku, aż po standard ISO C99 i nowsze. Kolejne wersje wprowadzały nowe
+    funkcjonalności, takie jak obsługa stałych, rozszerzenia dla zarządzania pamięcią oraz nowe typy danych, ale
+    podstawowe założenia języka pozostały niezmienione. Ewolucja ta skoncentrowana była na usprawnieniu możliwości
+    programowania na niskim poziomie, co było kluczowe dla aplikacji systemowych i embedded.<br>
+
+  C++ z kolei rozwijał się w kierunku rozbudowy programowania obiektowego. Wprowadzał nowe koncepcje,
+    takie jak szablony (templates), które pozwalały na tworzenie generycznego kodu, operatorów przeciążenia,
+    wyjątków (exceptions) i przestrzeni nazw (namespaces). C++ wzbogacił także bibliotekę standardową o STL
+    (Standard Template Library), co umożliwiło bardziej efektywne zarządzanie strukturami danych.<br>
+
+  Rozwój C i C++ miał bezpośredni wpływ na powstanie i rozwój Javy. Twórcy Javy starali się z jednej strony
+    zachować elementy, które uczyniły C i C++ popularnymi, jak czytelność składni i wydajność, a z drugiej
+    strony chcieli wyeliminować wady tych języków, takie jak trudności z zarządzaniem pamięcią czy złożoność
+    wynikająca z nadmiernej liczby funkcji i możliwości języka.<br>
+
+  Java odziedziczyła wiele z C++ w zakresie programowania obiektowego, ale uprościła ten model. Na przykład
+    Java nie wspiera wielokrotnego dziedziczenia klas, które może prowadzić do skomplikowanych problemów w C++,
+    zamiast tego wprowadzając interfejsy, które pozwalają na osiągnięcie podobnej funkcjonalności w bardziej
+    kontrolowany sposób. Automatyczne zarządzanie pamięcią w Javie (Garbage Collection) było odpowiedzią na
+    problemy związane z ręcznym zarządzaniem pamięcią w C i C++, co często prowadziło do błędów, takich jak
+    wycieki pamięci czy nieprawidłowy dostęp do pamięci.<br><br>
+
+  <b>Podsumowanie</b><br><br>
+  Historia języków C, C++ oraz Java pokazuje, jak różne języki programowania mogą się wzajemnie inspirować i
+    rozwijać w odpowiedzi na potrzeby programistów. C stanowił fundament dla systemowego i niskopoziomowego
+    programowania, C++ rozszerzył ten fundament o potężne narzędzia programowania obiektowego,
+    a Java wykorzystała i uprościła te idee, dostosowując je do wymagań nowoczesnych aplikacji
+    przenośnych i bezpiecznych.<br>
+
+  Ewolucja C i C++ miała zatem bezpośredni wpływ na rozwój Javy, która z jednej strony czerpała z ich dorobku,
+    a z drugiej starała się naprawić ich niedoskonałości. Java jako język stała się popularna w środowiskach,
+    gdzie wymagano przenośności, bezpieczeństwa oraz łatwości zarządzania złożonymi projektami, jednocześnie
+    zachowując wydajność i strukturalną jasność zaczerpniętą z C i C++.<br>
 
 
 

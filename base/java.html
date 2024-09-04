@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>C langue</title>
+  <link rel="canonical" href="https://www.llpl.org/index.html" />
 
   <link href="../css/base.css" type="text/css" rel="stylesheet">
 
@@ -48,7 +49,135 @@
 </div>
 <br>
 <p>
-  W trakcie przygotowania, planowana data: 30.08.2024
+  Java 1.0 (1996)<br><br>
+  Pierwsza wersja Javy: Pierwsze wydanie języka Java przez Sun Microsystems. Zawierało podstawowe elementy języka,
+  takie jak model obiektowy, automatyczne zarządzanie pamięcią (garbage collection) oraz standardowe biblioteki API,
+  które wspierały GUI (AWT), obsługę sieci, wielowątkowość i inne podstawowe funkcje.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 1.1 (1997)<br><br>
+  Inner Classes: Wprowadzenie klas wewnętrznych.<br>
+  Reflection: Możliwość inspekcji i wywoływania metod i pól klas w czasie wykonania.<br>
+  JDBC: Pierwsza wersja Java Database Connectivity do komunikacji z bazami danych.<br>
+  RMI: Zdalne wywoływanie metod (Remote Method Invocation) pozwalające na wywoływanie metod na obiektach
+  znajdujących się na innych maszynach w sieci.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 1.2 (1998) – Java 2<br><br>
+  Swing: Wprowadzenie nowoczesnej biblioteki GUI Swing, która była bardziej zaawansowana i elastyczna niż AWT.<br>
+  JIT Compiler: Poprawa wydajności dzięki kompilatorowi Just-In-Time (JIT).<br>
+  Collections Framework: Nowa struktura kolekcji (List, Set, Map).<br>
+  Java Plug-in: Umożliwił uruchamianie apletów Javy w przeglądarkach.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 1.3 (2000)<br><br>
+  HotSpot JVM: Nowa maszyna wirtualna z dynamiczną kompilacją i optymalizacją kodu.<br>
+  RMI-IIOP: Integracja RMI z protokołem IIOP, umożliwiająca komunikację z aplikacjami CORBA.<br>
+  Synthetic Proxy Classes: Nowa funkcjonalność dynamicznego tworzenia klas proxy.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 1.4 (2002)<br><br>
+  assert: Nowe słowo kluczowe do obsługi asercji.<br>
+  NIO: New I/O API, które wprowadziło bufory i kanały, oferując bardziej efektywne zarządzanie danymi we/wy.<br>
+  Logging API: Wprowadzenie standardowego API do logowania.<br>
+  XML Parsing: Wbudowane wsparcie dla przetwarzania XML (SAX, DOM).<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 5 (2004) – znana również jako 1.5<br><br>
+  Generics: Umożliwiły tworzenie klas i metod z typami generycznymi, co zwiększyło bezpieczeństwo typów w czasie kompilacji.<br>
+  Enhanced for Loop: Wprowadzenie udoskonalonej pętli for-each.<br>
+  Autoboxing/Unboxing: Automatyczne konwersje między typami prostymi (prymitywnymi) a ich odpowiednikami klasowymi.<br>
+  Enums: Wprowadzenie wyliczeń jako specjalnego typu danych.<br>
+  Annotations: Dodanie adnotacji do Javy, umożliwiających metadane w kodzie źródłowym.<br>
+  Concurrency API: Nowe klasy wspomagające programowanie wielowątkowe.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 6 (2006)<br><br>
+  Scripting API: Integracja z innymi językami skryptowymi dzięki API.<br>
+  Compiler API: Udostępnienie API dla kompilatora.<br>
+  Pluggable Annotations: Wsparcie dla adnotacji procesowanych w czasie kompilacji.<br>
+  JDBC 4.0: Rozbudowa API JDBC, w tym uproszczona obsługa zasobów.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 7 (2011)<br><br>
+  Project Coin: Wprowadzenie kilku małych, ale użytecznych zmian w składni, takich jak: diamond operator (<>), multi-catch, try-with-resources.<br>
+  NIO.2: Rozbudowa API New I/O, w tym wsparcie dla pracy z systemem plików i asynchroniczne operacje I/O.<br>
+  Fork/Join Framework: Nowa struktura do wykonywania zadań równoległych, optymalizująca prace wielowątkowe.<br>
+  InvokeDynamic: Usprawnienia JVM do lepszej współpracy z językami dynamicznymi.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 8 (2014)<br><br>
+  Lambdy: Wprowadzenie wyrażeń lambda, umożliwiających tworzenie funkcji anonimowych.<br>
+  Stream API: Nowe API do przetwarzania danych w sposób funkcyjny i równoległy.<br>
+  Optional: Nowa klasa, która umożliwia reprezentowanie wartości opcjonalnych, eliminując częste problemy z null.<br>
+  Date and Time API: Nowe API do obsługi dat i czasu, oparte na bibliotece Joda-Time.<br>
+  Default Methods: Możliwość definiowania domyślnych metod w interfejsach.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 9 (2017)<br>
+  Jigsaw (Modularity): System modułów, umożliwiający dzielenie aplikacji na mniejsze moduły, co zwiększa
+  bezpieczeństwo i poprawia zarządzanie zależnościami.<br>
+  JShell: Interaktywny interpreter, który umożliwia eksperymentowanie z kodem Java.<br>
+  Collection Factory Methods: Nowe metody do tworzenia niezmiennych kolekcji w prostszy sposób.<br>
+  Reactive Streams API: Wsparcie dla programowania reaktywnego.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 10 (2018)<br>
+  Local-Variable Type Inference: Wprowadzenie słowa kluczowego var umożliwiającego inferencję typu zmiennej lokalnej.<br>
+  Application Class-Data Sharing: Optymalizacje związane z ładowaniem klas, co przyspiesza start aplikacji.<br>
+  Garbage Collector Improvements: Poprawki w wydajności GC, w tym eksperymentalny GC „ZGC”.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 11 (2018)<br><br>
+  LTS (Long Term Support): Pierwsza wersja LTS od Java 8.<br>
+  ZGC (Z Garbage Collector): Nowy GC o niskich opóźnieniach.<br>
+  HTTP Client API: Nowe API do obsługi żądań HTTP/2.<br>
+  Flight Recorder: Narzędzie do rejestrowania i analizy danych diagnostycznych JVM.<br>
+  Removal of Deprecated Features: Usunięcie starych funkcji, takich jak Applets i JNLP.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 12 (2019)<br><br>
+  Switch Expressions (Preview): Ulepszony switch jako wyrażenie z możliwością zwracania wartości.<br>
+  JVM Constants API: Nowe API do pracy z constantami w JVM.<br>
+  Improved Garbage Collection: Dalsze usprawnienia w ZGC oraz nowa implementacja Shenandoah GC.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 13 (2019)<br><br>
+  Text Blocks (Preview): Umożliwienie łatwiejszego definiowania wielowierszowych tekstów.<br>
+  Reimplementacja Socket API: Przebudowa klasy Socket i powiązanych klas.<br>
+  Dynamic CDS Archives: Ulepszenia w tworzeniu archiwów klas dla szybszego uruchamiania aplikacji.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 14 (2020)<br><br>
+  Switch Expressions (Final): Ukończenie prac nad ulepszonym switch.<br>
+  Pattern Matching for instanceof (Preview): Ulepszenia w operacjach typu instanceof, eliminujące potrzebę rzutowania.<br>
+  Records (Preview): Nowa składnia ułatwiająca tworzenie klas przechowujących dane.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 15 (2020)<br>
+  Text Blocks (Final): Finalizacja funkcji bloków tekstowych.<br>
+  Sealed Classes (Preview): Nowa funkcjonalność pozwalająca na tworzenie klas ograniczonych do określonych podklas.<br>
+  Hidden Classes: Możliwość tworzenia klas, które nie są bezpośrednio widoczne dla kodu aplikacji.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 16 (2021)<br>
+  Records (Final): Ukończenie prac nad rekordami.<br>
+  Pattern Matching for instanceof (Final): Ukończenie funkcjonalności dopasowywania wzorców dla instanceof.<br>
+  Vector API (Incubator): Nowe API umożliwiające pracę z wektorami SIMD.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 17 (2021)<br><br>
+  LTS: Kolejna wersja LTS.<br>
+  Sealed Classes (Final): Finalizacja klas zamkniętych.<br>
+  Pattern Matching for switch (Preview): Umożliwienie dopasowania wzorców w instrukcjach switch.<br>
+  Foreign Function & Memory API (Incubator): Nowe API do współpracy z kodem natywnym i zarządzania pamięcią poza stertą.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 18 (2022)<br><br>
+  Simple Web Server: Dodanie prostego serwera HTTP dla celów testowych.<br>
+  UTF-8 by Default: UTF-8 staje się domyślnym kodowaniem znaków.<br>
+  Vector API (3rd Incubator): Kolejna wersja API do obsługi wektorów SIMD.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 19 (2022)<br>
+  Virtual Threads (Preview): Eksperymentalne wsparcie dla wirtualnych wątków, które pozwalają na tworzenie lekkich wątków na JVM.<br>
+  Structured Concurrency (Incubator): API wspierające lepsze zarządzanie współbieżnymi operacjami.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 20 (2023)<br><br>
+  Pattern Matching for switch (Second Preview): Dalszy rozwój dopasowywania wzorców dla switch.<br>
+  Scoped Values (Incubator): Nowe API pozwalające na bezpieczne przekazywanie danych między różnymi wątkami.<br>
+  Foreign Function & Memory API (Preview): Kontynuacja rozwoju API do współpracy z kodem natywnym.<br><br>
+  -----------------------------------------------------------------------------<br>
+  Java 21 (2023)<br><br>
+  LTS: Kolejna wersja LTS.<br>
+  Virtual Threads (Final): Finalizacja wsparcia dla wirtualnych wątków.<br>
+  Sequenced Collections: Wprowadzenie nowego typu kolekcji z zachowaną kolejnością elementów.<br>
+  Pattern Matching for switch (Final): Finalizacja dopasowywania wzorców dla switch.<br>
+  String Templates (Preview): Wprowadzenie nowej funkcji umożliwiającej wstawianie zmiennych bezpośrednio do łańcuchów znaków.<br>
+  Każda z tych wersji wprowadziła unikalne zmiany, które kształtowały i rozwijały język Java,
+  dostosowując go do współczesnych potrzeb i trendów w programowaniu.<br><br>
+  -----------------------------------------------------------------------------<br>
 
 
 
