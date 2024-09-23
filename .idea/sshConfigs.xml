@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="5.135.148.4" id="90d22de6-001e-43af-b409-0e1ec4b54160" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="57.129.16.48" id="92b49861-9450-46b5-8759-b70643c9b03e" port="22" nameFormat="DESCRIPTIVE" username="fedora" useOpenSSHConfig="true" />
     </configs>
   </component>
 </project>
